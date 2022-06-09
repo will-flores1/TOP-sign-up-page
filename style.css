@@ -32,12 +32,8 @@ img {
     background-color: #1f3a63;
     padding: 20px 70px;
     font-weight: bold;
-    margin: 46px 835px 46px 61px;
+    margin-bottom: 20px;
     border-radius: 13px;
-}
-
-.account-already {
-    margin-left: 61px;
 }
 
 form {
@@ -45,15 +41,63 @@ form {
     flex-wrap: wrap;
     padding: 75px 344px 42px 61px;
     background-color: #ffffff;
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);;
+    color: #303030;
+    font-weight:bold;
+    font-size: 14px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 .form-row {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .form-element {
     display: flex;
     flex-direction: column;
-    width: 10vw;
+    width: 355px;
+}
+
+.right {
+    margin-left: 93px;
+}
+
+label {
+    margin-bottom: 2px;
+}
+
+.one-line {
+    margin-bottom: -95px;
+}
+
+.sign-up-text {
+    position: relative;
+    top: 75px;
+    left: 61px;
+}
+
+.logo {
+    position: absolute;
+    top: 155px;
+    width: 37.08vw;
+    height: 150px;
+    background-color: #30303075;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo > img {
+    margin: 40px 225px;
+}
+
+input:not(:focus):valid {
+    border-color: none;
+}
+
+input:required {
+    border-color:red;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: inset hoff voff blur #000;
 }
